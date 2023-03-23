@@ -17,8 +17,9 @@
 from typing import List, Tuple
 
 def get_sum(number_list: List[int], k: int) -> List[int]:
-    # Здесь реализация вашего решения
-    pass
+    sum = int(''.join(map(str, number_list)))
+    return list(map(int, str(sum + k)))
+
 
 def read_input() -> Tuple[List[int], int]:
     n = int(input())
