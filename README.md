@@ -3,3 +3,5 @@
 23 мар 2023
 
 https://contest.yandex.ru/contest/23389/finish/
+
+https://contest.yandex.ru/contest/23389/problems/E/
