@@ -25,7 +25,7 @@ def trainer(boymaxkey: int, matrix: List[str]) -> int:
                 continue
             numbers[int(k)] += 1
     for i in numbers.values():
-        if 0 < i <= 2 * boymaxkey:
+        if 0 < i <= BOYS * boymaxkey:
             scores += 1
     return scores
 
