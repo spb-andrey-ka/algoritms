@@ -12,7 +12,8 @@ def read_input() -> Tuple[List[int], int]:
 
 
 def get_distance(houses: List[str], number_plots: int) -> List[int]:
-    """Высчитывает дистанцию каждого из участков до ближайшего нулевого участка."""
+    """Высчитывает дистанцию каждого из участков
+    до ближайшего нулевого участка."""
     distanse = [number_plots] * number_plots
     zero = [i for i in range(number_plots) if houses[i] == 0]
     first_zero = zero[0]
